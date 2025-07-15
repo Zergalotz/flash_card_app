@@ -1,5 +1,5 @@
 # Flash_Card_App
-This project is another continuation of learning using Python, Tkinter, and File interaction.
+This project is another continuation of learning using Python, Tkinter, and interacting with files.
 
 Concepts practicing:
 - Object-Oriented Programming
