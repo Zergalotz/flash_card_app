@@ -1,9 +1,10 @@
 # Flash_Card_App
-This project is another continuation of learning using Python, Tkinter, and interacting with files.
+This project is another continuation of learning using Python, Tkinter, Pandas, and interacting with csv file.
 
 Concepts practicing:
 - Object-Oriented Programming
-- File handling
+- File handling csv files
+- Pandas for data manipulation
 - Tkinter GUI Development
 - Tkinter grid layout management
 - Event handling in Tkinter
