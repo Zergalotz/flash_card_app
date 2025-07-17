@@ -19,12 +19,11 @@ else:
 def get_card_vocab():
     global current_card, flip_timer
     window.after_cancel(flip_timer)  # Cancel the previous flip timer
-    current_card = random.choice(dictionary_formatted)
+    current_card = random.choice(to_learn)
     canvas.itemconfig(title_language, text="French", fill="black")
     canvas.itemconfig(card_word, text=current_card["French"], fill="black")
     canvas.itemconfig(card_face, image=card_front_image)
-    flip_timer = window.after(3000, flip_card)
-
+    flip_timer = window.after(3000, flip_card) # Reset the flip timer for the new card
 
 def flip_card():
     canvas.itemconfig(title_language, text="English", fill="white")
