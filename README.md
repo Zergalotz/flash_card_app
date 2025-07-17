@@ -20,4 +20,4 @@ This is a simple flash card application that allows users to create, view, and m
 - ability to add new flash cards
 - save progress
 - flash card "flip" functionality (note: this is not a real flip, but a change of text)
-- two buttons for navigation: "X" and "✅"
+- two buttons for navigation: ❌ and ✅
